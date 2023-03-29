@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto; 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+/*AUDIO
+**********************************************************************/
+.figure{
+    width: 100%;
+    max-width: 1280px;
+    margin: 20px; 
+}
+
+.pp{
+    font-size: 20px;
+}
+/*HEADER
+**********************************************************************/
+.header-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.link{
+    margin: 20px;
+}
+
+.Button{
+    background-color: orange;
+    color: white;
+    margin-right: 239px;
+    border: none;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+#Home{
+    color: orange;
+}
+
+.hhh{
+    font-size: 40px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.hh{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+/*INTRO
+**********************************************************************************************/
+.intro-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro-text h1{
+    width: 522px;
+
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.25;
+    color: darkgray;
+    padding-bottom: 30px;
+}
+
+.intro-text p{
+    font-size: 30px;
+    line-height: 30px;
+    color: gray;
+}
+
+.сutton{
+    background-color: orange;
+    color: white;
+    margin-right: 239px;
+    border: none;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    size: 30px;
+    font-size: 10px;
+}
+
+.service-inner{
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.uu{
+    font-size: 15px;
+}
+/*CARD
+********************************************************************************************/
+.cards{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto; 
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.card{
+    width: 180px;
+    width: 96%;
+    max-width: 400px;
+    margin: 0 auto; 
+    margin-left: 40px;
+}
+
+/*PROJECTS
+********************************************************************************/
+.projects-inner{
+    max-width: 400px;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.cardtwo{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto; 
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.card img{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+/*Meet
+**********************************************************************************/
+.meet-img{
+    margin: 0 auto;
+    width: 96%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.buy{
+    background-color: orange;
+    color: white;
+    margin-right: 239px;
+    border: none;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+}
