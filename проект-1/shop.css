@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 1580px;
+    margin: 0 auto; 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+/*HEADER
+*************************************************************************************************************************************************************************************************/
+.header-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link{
+    margin: 20px;
+    color: #006450;
+    font-size: 14px;
+}
+
+#h1{
+    color: #00C08B;
+}
+
+.menu{
+    padding: 15px;
+    color: #006450;
+    margin: 0 auto;
+}
+/*backround-image
+*************************************************************************************************************************************************************************************************/
+.backround-image-inner{
+    background-image: url(Rectangle123123.png);
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+#image{
+    padding-top: 200px;
+    font-size: 30px;
+    color: white;
+    margin-left: 20px;
+}
+
+#imagetwo{
+    font-size: 30px;
+    color: white;
+    margin-left: 20px;
+}
+
+.image-button{
+    height: 64px;
+    width: 201px;
+    margin-top: 200px;
+    margin-right: 20px;
+    font-size: 20px;
+    background: #E1FF32;
+    border: none;
+}
+/*Designed
+*************************************************************************************************************************************************************************************************/
+.designed-inner{
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 50px;
+    color: #006450;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+/*Cards
+**************************************************************************************************************************************************************************************************/
+.cards-inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards-inner-two{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardone{
+    margin-left: 20px;
+    background-image: url(Rectanglecard1.png);
+    width: 50%;
+    height: 50vh;
+}
+.cardtwo{
+    margin-left: 20px;
+    background-image: url(Rectanglecard2.png);
+    width: 50%;
+    height: 50vh;
+    margin-bottom: 20px;
+}
+.cardthree{
+    margin-left: 20px;
+    background-image: url(Rectanglecard3.png);
+    width: 50%;
+    height: 50vh;
+}
+.cardfour{
+    margin-left: 20px;
+    background-image: url(Rectanglecard4.png);
+    width: 50%;
+    height: 50vh;
+}
+/*Card H1
+*********************************************************************************************************************************************************************************************/
+.cardone h1{
+    color: #FFFAEF;
+    margin-left: 197px;  
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.cardtwo h1{
+    color: #FFFAEF;
+    margin-left: 197px;  
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.cardthree h1{
+    color: #FFFAEF;
+    margin-left: 197px;  
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.cardfour h1{
+    color: #FFFAEF;
+    margin-left: 197px;  
+    padding-top: 20px;
+    font-size: 25px;
+}
+/*Card P
+*********************************************************************************************************************************************************************************************/
+.cardone p{
+    color: #FFFAEF;
+    margin-left: 200px;  
+    font-size: 16px;
+}
+
+.cardtwo p{
+    color: #FFFAEF;
+    margin-left: 200px;  
+    font-size: 16px;
+}
+
+.cardthree p{
+    color: #FFFAEF;
+    margin-left: 200px;  
+    font-size: 16px;
+}
+
+.cardfour p{
+    color: #FFFAEF;
+    margin-left: 200px;  
+    font-size: 16px;
+}
+/*Card Button
+*********************************************************************************************************************************************************************************************/
+#card-button{
+    font-size: 30px;
+    border: none;
+    margin-top: 450px;
+    size: 300px;
+    height: 60px;
+    width: 100%;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    background: #E1FF32;
+    border-radius: 0px;
+}
+
+/*Get
+***********************************************************************************************************************************************************************************************/
+hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #006450;
+    height: 3.5px;
+}
+
+.Get-inner{
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 100%;
+    height: 60vh;
+    justify-content: space-between;
+    display: flex;
+}
+
+.Get-img{
+    justify-content: space-between;
+    display: flex;
+}
+
+
+#get-h1{
+    margin-top: 200px;
+    padding-left: 200px;
+    font-size: 50px;
+    color: #006450;
+    text-align: center;
+}
+
+#get-p{
+    margin-top: 700px;
+    padding-left: 760px;
+    font-size: 20px;
+    color: #006450;
+    position: absolute;
+}
+/*Formulated
+***********************************************************************************************************************************************************************************************/
+.Formulated-inner{
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+
+.Formulated-img{
+    justify-content: space-between;
+    display: flex;
+}
+
+#Formulated-h1{
+    margin-top: 0px;
+    padding-left: 60px;
+    font-size: 35px;
+    color: #006450;
+}
+
+#Formulated-h1-one{
+    margin-top: 50px;
+    padding-left: 60px;
+    font-size: 35px;
+    color: #006450;
+} 
+
+#Formulated-p{
+    margin-top: 700px;
+    padding-left: 760px;
+    font-size: 20px;
+    color: #006450;
+    position: absolute;
+}
+/*Every
+***********************************************************************************************************************************************************************************************/
+.Every-inner{
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+
+.Every-img{
+    justify-content: space-between;
+    display: flex;
+}
+
+#Every-h1{
+    margin-top: 0px;
+    padding-left: 60px;
+    font-size: 35px;
+    color: #006450;
+}
+
+#Every-h1-one{
+    margin-top: 50px;
+    padding-left: 60px;
+    font-size: 35px;
+    color: #006450;
+} 
+
+#Every-p{
+    margin-top: 700px;
+    font-size: 20px;
+    color: #006450;
+    position: absolute;
+}
+/*Teen
+***********************************************************************************************************************************************************************************************/
+.teen-inner{
+    text-align: center;
+    width: 100%;
+}
+
+#teen-h1-one{
+    color: #00C08B;
+    font-size: 36px;
+}
+
+#teen-h1-two{
+    color: #006450;
+    font-size: 50px;
+}
+
+#teen-p{
+    margin-top: 200px;
+    margin-left: 40px;
+    color: #006450;
+    font-size: 20px;
+}
+/*Tooth
+************************************************************************************************************************************************************************************************/
+
+.Tooth-inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Tooth-inner-two{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Toothone{
+    margin-left: 20px;
+    background-image: url(Rectangletooth1.png);
+    width: 50%;
+    height: 50vh;
+}
+.Toothtwo{
+    margin-left: 20px;
+    background-image: url(Rectangletooth2.png);
+    width: 50%;
+    height: 50vh;
+    margin-bottom: 20px;
+}
+.Tooththree{
+    margin-left: 20px;
+    background-image: url(Rectangletooth3.png);
+    width: 50%;
+    height: 50vh;
+}
+.Toothfour{
+    margin-left: 20px;
+    background-image: url(Rectangletooth4.png);
+    width: 50%;
+    height: 50vh;
+}
+/*Card H1
+*********************************************************************************************************************************************************************************************/
+.Toothone h1{
+    color: #FFFAEF;
+    margin-left: 197px;  
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.Toothtwo h1{
+    color: #FFFAEF;
+    margin-left: 197px;  
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.Tooththree h1{
+    color: #FFFAEF;
+    margin-left: 197px;  
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.Toothfour h1{
+    color: #FFFAEF;
+    margin-left: 197px;  
+    padding-top: 20px;
+    font-size: 25px;
+}
+/*Card P
+*********************************************************************************************************************************************************************************************/
+.Toothone p{
+    color: #FFFAEF;
+    margin-left: 200px;  
+    font-size: 16px;
+}
+
+.Toothtwo p{
+    color: #FFFAEF;
+    margin-left: 200px;  
+    font-size: 16px;
+}
+
+.Tooththree p{
+    color: #FFFAEF;
+    margin-left: 200px;  
+    font-size: 16px;
+}
+
+.Toothfour p{
+    color: #FFFAEF;
+    margin-left: 200px;  
+    font-size: 16px;
+}
+/*Tooth-Button
+*********************************************************************************************************************************************************************************************/
+#Tooth-button{
+    font-size: 30px;
+    border: none;
+    margin-top: 450px;
+    size: 300px;
+    height: 60px;
+    width: 100%;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    background: #E1FF32;
+    border-radius: 0px;
+}
+
+/*TEEN
+********************************************************************************************************************************************************************************************/
+#teen-h1-three{
+    color: #006450;
+    font-size: 62px;
+    width: 700px;
+    margin-left: 500px;
+}
+
+.one-img{
+    margin-left: 20px;
+    background-image: url(RectangleOne.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 55vh;
+}
+
+.one-img h1{
+    padding-top: 200px;
+    color: #006450;
+    font-size: 62px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.one-button{
+    margin-left: 700px;
+    margin-top: 100px;
+    font-size: 30px;
+    size: 40px;
+    width: 200px;
+    height: 80px;
+    border: 5px solid black;
+    background-color: transparent;
+}
+/*link
+************************************************************************************************************************************************************************************************/
+.link-link:first-child{
+    padding-bottom: 20px;
+}
+
+.link-inner{
+    display: flex;
+    flex-direction: column;
+}
+
+.link-inner-inner{
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-link{
+    color: #006450;
+}
