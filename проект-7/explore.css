@@ -1,0 +1,653 @@
+*{
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/*INTRO
+************************************************************************************************************************************************************************************************/
+.intro-inner2{
+    background: #C5010A;
+    width: 1920px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+}
+
+.intro-logo{
+    margin-top: 32px;
+    width: 135.4px;
+    height: 56.6px;
+    margin-right: 87.6px;
+    margin-left: 104px;
+}
+
+.intro-link1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 87.6px;
+}
+
+.intro-link{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 32px;
+}
+
+.intro-down{
+    margin-left: 10.2px;
+}
+
+.intro-button{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    height: 48px;
+    width: 158px;
+    background: #FA3C45;
+    border-radius: 8px;
+    margin-top: 36px;
+    margin-left: 32px;
+}
+
+.links{
+    margin-top: 51px;
+}
+
+.intro-avatar{
+    width: 40px;
+    height: 40px;
+    margin-top: 41px;
+    margin-left: 163px;
+}
+
+/*Esemka
+*************************************************************************************************************************************************************************************************/
+.explore-inner{
+    padding-top: 5px;
+    background-color: #C5010A;
+    height: 257px;
+    width: 1920px;
+}
+
+.exp-h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 120%; 
+    text-align: center;
+    letter-spacing: 0.003em;
+    color: #FFFFFF;    
+}
+
+/*Home
+*************************************************************************************************************************************************************************************************/
+.home-h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #000000;
+    margin-left: 104px;
+    margin-top: 80px;
+}
+
+.sel-option{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    margin-left: 152px;
+    border: 1px solid #9A9AB0;
+    border-radius: 8px;
+    width: 296px;
+    height: 56px;
+}
+
+.sel-option1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    margin-left: 40px;
+    border: 1px solid #9A9AB0;
+    border-radius: 8px;
+    width: 296px;
+    height: 56px;
+}
+
+.selects-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Select
+********************************************************************************************************************************************************************************************/
+
+.select-input{
+    display: flex;
+    justify-content: space-between;
+}
+
+.select-input-input{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%; 
+    letter-spacing: 0.005em;
+    color: #11142D;
+    border: 1px solid #11142D;
+    border-radius: 8px;
+    width: 482px;
+    height: 56px;
+    margin-left: 152px;
+    margin-top: 131px;
+}
+
+.select-input-button{
+    background: #FA3C45;
+    border-radius: 8px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%; 
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;    
+    height: 56px;
+    width: 102px;
+    margin-top: 142px;
+}
+
+.select-input-h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%; 
+    letter-spacing: 0.005em;
+    color: #FA3C45;    
+    margin-top: 155px;
+    margin-left: 195px;
+}
+
+.select-input-h2{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%; 
+    letter-spacing: 0.005em;
+    color: #9A9AB0;    
+    margin-top: 155px;
+    margin-left: 56px;
+}
+
+/*Tesla
+*********************************************************************************************************************************************************************************************/
+
+.tesla-inner{
+    margin-left: 154px;
+}
+
+.tesla-inner-h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+}
+
+.tesla-inner-p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #9A9AB0;
+}
+
+.cart1{
+    display: flex;
+    margin-top: 74px; 
+}
+
+.tesla-cart1-img{
+    width: 296px;
+    height: 250px;
+    margin-right: 31px;
+}
+
+.tesla-cart1-text-p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #FA3C45;
+}
+
+.tesla-cart1-text-text{
+    display: flex;
+}
+
+.tesla-cart1-text-text-h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+}
+
+.tesla-cart1-text-text-p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.008em;
+    color: #000000;    
+    padding-top: 10px;
+    margin-left: 16px;
+}
+
+.tesla-cart1-texts-ps{
+    display: flex;
+}
+
+.tesla-cart1-text-text-p11{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #000000;
+}
+
+.tesla-carts-text2-h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #FA3C45;
+}
+
+.tesla-carts-text2-button{
+    background: #FA3C45;
+    border-radius: 8px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;  
+    text-align: center;
+    letter-spacing: 0.005em; 
+    color: #FFFFFF;
+    margin-top: 25px;
+    width: 102px;
+    height: 40px;
+    margin-left: 222px;
+}
+
+.tesla-carts-text2{
+    display: flex;
+}
+
+.tesla-cart1-text-p11{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 110%;
+    letter-spacing: 0.008em;
+    color: #92929D;   
+}
+
+.tesla-cart1-text-h11{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%; 
+    letter-spacing: 0.005em;
+    color: #000000;
+}
+
+.tesla-cart1-text-p2{
+    margin-left: 49px;
+}
+
+.tesla-cart1-text-p3{
+    margin-left: 47px;
+}
+
+.tesla-inner-ps{
+    display: flex;
+}
+
+.tesla-inner-ps-h1{
+    margin-left: 676px;
+    width: 107px;
+}
+
+.tesla-option{
+    width: 119px;
+    height: 32px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+}
+
+.tesla-img{
+    margin-left: 32px;
+    width: 24px;
+    height: 24px;
+    margin-top: 13px;
+}
+
+.tesla-carts1{
+    display: flex;
+}
+
+.tesla-carts-img{
+    margin-top: 64px;
+    width: 384px;
+    height: 560px;
+}
+
+.tesla-carts1-cart-cart{
+    display: flex;
+}
+
+.tesla-carts1-carts{
+    width: 850px;
+}
+
+.tesla-carts-img1{
+    width: 384px;
+    height: 320px;
+    margin-left: 32px;   
+}
+
+.img-pagination{
+    margin-top: 112px;
+    margin-left: 453px;
+}
+
+/*Subscribe
+**********************************************************************************************************************************************************************************************/
+.subscribe-h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    margin-left: 377px;
+    margin-top: 285px;
+}
+
+.subscribe-p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #92929D;   
+    margin-top: 24px; 
+    margin-left: 400px;
+}
+
+.subscribe-forms{
+    display: flex;
+}
+
+.subscribe-form{
+    margin-top: 56px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    margin-left: 474px;
+}
+
+.subscribe-form1{
+    margin-top: 56px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    margin-left: 16px;
+}
+
+.subscribe-form-input{
+    width: 296px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 1px solid #ECF2FE;
+    border-radius: 8px;    
+    margin-top: 20px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+}
+ 
+.subscribe-button{
+    background: #FA3C45;
+    border-radius: 8px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;  
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    width: 128px;
+    height: 56px;
+    margin-top: 96px;
+    margin-left: 42px;
+}
+
+/*Footer
+************************************************************************************************************************************************************************************************/
+.footer{
+    background-color: #C5010A;
+    width: 1440px;
+    height: 407px;
+    margin-left: 104px;
+    margin-top: 102px;
+}
+
+.footer-inner{
+    display: flex;
+}
+
+.footer-1-img{
+    margin-left: 104px;
+    margin-top: 87px;
+}
+
+.footer-1-p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;   
+    letter-spacing: 0.008em;
+    color: #FFFFFF;    
+    width: 196px;
+    margin-left: 104px;
+    margin-top: 37;
+}
+
+.footer-1-p1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;    
+    margin-left: 104px;
+    margin-top: 128px;
+    padding-bottom: 37px;
+}
+
+.footer-2-a{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.008em;
+    color: #FFFFFF;    
+    text-decoration: none;
+    margin-top: 95px;
+    margin-left: 164px;
+    margin-bottom: 29px;
+}
+
+.footer-4-p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;   
+    letter-spacing: 0.008em;
+    color: #FFFFFF;    
+    margin-left: 165px;
+    margin-top: 98px;
+}
+
+.footer-4-p1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;   
+    letter-spacing: 0.008em;
+    color: #FFFFFF;    
+    margin-left: 165px;
+    margin-top: 22px;
+}
+
+.contact-us{
+    width: 400px;
+    height: 560px;
+    background: #C5010A;
+    border-radius: 8px;
+    margin-left: 36px;
+}
+
+.contact-us-h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    margin-top: 166px;
+}
+
+.contact-us-h2{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    width: 226px;
+    margin-top: 24px;
+    margin-left: 87px;
+}
+
+.contact-us-button{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    width: 102px;
+    height: 40px;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-left: 149px;
+}
+
+.tesla-carts1-cart-cart{
+    width: 1440px;
+}

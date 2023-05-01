@@ -1,0 +1,588 @@
+*{
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/*INTRO*/
+.intro-inner2{
+    background: #C5010A;
+    width: 1920px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+}
+
+.intro-logo{
+    margin-top: 32px;
+    width: 135.4px;
+    height: 56.6px;
+    margin-right: 87.6px;
+    margin-left: 104px;
+}
+
+.intro-link1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 87.6px;
+}
+
+.intro-link{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 32px;
+}
+
+.intro-down{
+    margin-left: 10.2px;
+}
+
+.intro-button{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    height: 48px;
+    width: 158px;
+    background: #FA3C45;
+    border-radius: 8px;
+    margin-top: 36px;
+    margin-left: 32px;
+}
+
+.links{
+    margin-top: 51px;
+}
+
+.intro-avatar{
+    width: 40px;
+    height: 40px;
+    margin-top: 41px;
+    margin-left: 163px;
+}
+
+/*Esemka
+*************************************************************************************************************************************************************************************************/
+.explore-inner{
+    padding-top: 5px;
+    background-color: #C5010A;
+    height: 257px;
+    width: 1920px;
+}
+
+.exp-h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 120%; 
+    text-align: center;
+    letter-spacing: 0.003em;
+    color: #FFFFFF;    
+}
+/*Home
+*************************************************************************************************************************************************************************************************/
+.home-h1{
+    margin-top: 80px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.005em; 
+    color: #000000;
+    margin-left: 154px;
+}
+
+.home-carts2{
+    display: flex;
+}
+
+.home-text-h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    margin-top: 56px;
+    margin-left: 154px;
+}
+
+.home-text{
+    display: flex;
+}
+
+.home-text-h2{
+    margin-top: 56px;
+    margin-left: 444px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: right;
+    letter-spacing: 0.005em;
+    color: #FA3C45    
+}
+
+.home-carts-img{
+    margin-left: 154px;
+    margin-right: 16px;
+    width: 816px;
+    height: 440px;
+    margin-bottom: 117px;
+}
+
+.home-carts2-imgs{
+    margin-top: 16px;
+    margin-left: 154px;
+}
+
+.home-carts2-img1{
+    margin-right: 8px;
+}
+
+.home-carts2-h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #333333;
+    margin-left: 154px;
+    margin-top: 44px;
+}
+
+.home-carts2-p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #92929D;  
+    margin-left: 154px;
+    width: 816px;
+}
+
+.subscribe-form-button{
+    background: #FA3C45;
+    border-radius: 8px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    margin-top: 58px;
+    width: 296px;
+    height: 120px;
+}
+
+.home-form-label{
+    background: #FFFFFF;
+    border: 1px solid #FA3C45;
+    border-radius: 8px;    
+}
+
+.home-form-input{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #9A9AB0;    
+    width: 296px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 1px solid #FA3C45;
+    border-radius: 8px;    
+    margin-top: 12px;
+}
+
+.home-form-h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D; 
+    margin-top: 64px;
+}
+
+.home-form-button{
+    background: #FA3C45;
+    border-radius: 8px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    width: 168px;
+    height: 56px;
+    margin-top: 40px;
+}
+
+.homehome{
+    display: flex;
+}
+
+.home-forms{
+    margin-left: 60px;
+}
+
+/*Input
+************************************************************************************************************************************************************************************************/
+
+.homehome{
+    display: flex;
+}
+
+.home-forms{
+    margin-left: 60px;
+}
+
+/*Loan*/
+.loan-input-forms{
+    display: flex;
+}
+
+.loan-h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+}
+
+.loan-p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #92929D;
+}
+
+.loan-form-label{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.loan-form-input{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #9A9AB0;    
+    width: 720px;
+    height: 56px;
+    border: 1px solid #FA3C45;
+    border-radius: 8px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.loan-form-input1{
+    border: 1px solid #FA3C45;
+    border-radius: 8px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #9A9AB0;
+    width: 352px;
+    height: 56px;
+    margin-right: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.loan-form-button{
+    background: #FA3C45;
+    border-radius: 8px;
+    height: 48px;
+    width: 120px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    margin-top:48px;
+}
+
+.loan{
+    margin-left: 204px;
+}
+
+/*Download
+***********************************************************************************************************************************************************************************************/
+.download-inner{
+    display: flex;
+}
+
+.download-img{
+    margin-left: 256px;
+    margin-top: 280px;
+}
+
+.download-text-h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    margin-top: 348px;
+    margin-left: 120px;
+}
+
+.download-text-p{
+    width: 530px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #92929D;
+    margin-left: 120px;
+    margin-top: 22px;
+}
+
+.chekers{
+    margin-top: 58px;
+    margin-left: 122px;
+}
+
+.cheker{
+    display: flex;
+}
+
+.cheker-img{
+    width: 20px;
+    height: 20px;
+    padding-top: 10px;
+    padding-right: 18px;
+}
+
+.cheker-h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    margin-bottom: 21px;
+}
+
+.download-appstore{
+    margin-left: 123px;
+    margin-top: 42px;
+}
+
+.download-google{
+    margin-left: 24px;
+    margin-top: 42px;
+}
+
+/*Subscribe
+**********************************************************************************************************************************************************************************************/
+.subscribe-h10{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    margin-top: 125px;
+}
+
+.subscribe-p0{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #92929D;   
+    margin-top: 24px; 
+    margin-left: 1px;
+}
+
+.subscribe-buttons{
+    display: flex;
+}
+
+.subscribe-button1{
+    width: 192px;
+    height: 56px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;    
+    background: #FA3C45;
+    border-radius: 8px;
+    margin-left: 683px;
+    margin-top: 56px;
+}
+
+.subscribe-button2{
+    width: 156px;
+    height: 56px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #C5010A;    
+    background: white;
+    border-radius: 8px;
+    margin-left: 32px;
+    margin-top: 56px;
+}
+
+/*Footer
+************************************************************************************************************************************************************************************************/
+.footer{
+    background-color: #C5010A;
+    width: 1920px;
+    height: 407px;
+    margin-left: 104px;
+    margin-top: 102px;
+}
+
+.footer-inner{
+    display: flex;
+}
+
+.footer-1-img{
+    margin-left: 104px;
+    margin-top: 87px;
+}
+
+.footer-1-p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;   
+    letter-spacing: 0.008em;
+    color: #FFFFFF;    
+    width: 196px;
+    margin-left: 104px;
+    margin-top: 37;
+}
+
+.footer-1-p1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;    
+    margin-left: 104px;
+    margin-top: 128px;
+    padding-bottom: 37px;
+}
+
+.footer-2-a{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.008em;
+    color: #FFFFFF;    
+    text-decoration: none;
+    margin-top: 95px;
+    margin-left: 164px;
+    margin-bottom: 29px;
+}
+
+.footer-4-p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;   
+    letter-spacing: 0.008em;
+    color: #FFFFFF;    
+    margin-left: 165px;
+    margin-top: 98px;
+}
+
+.footer-4-p1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;   
+    letter-spacing: 0.008em;
+    color: #FFFFFF;    
+    margin-left: 165px;
+    margin-top: 22px;
+}

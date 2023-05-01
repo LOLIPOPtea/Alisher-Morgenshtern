@@ -1,0 +1,964 @@
+*{
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+/*INTRO
+************************************************************************************************************************************************************************************************/
+.intro-inner2{
+    background-image: url(img/GradientIntroimg.png);
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+.intro-logo{
+    margin-top: 32px;
+    width: 135.4px;
+    height: 56.6px;
+    margin-right: 87.6px;
+    margin-left: 104px;
+}
+
+.intro-link1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 87.6px;
+}
+
+.intro-link{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 32px;
+}
+
+.intro-down{
+    margin-left: 10.2px;
+}
+
+.intro-button{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    height: 48px;
+    width: 158px;
+    background: #FA3C45;
+    border-radius: 8px;
+    margin-top: 36px;
+    margin-left: 32px;
+}
+
+.links{
+    margin-top: 51px;
+}
+
+.intro-avatar{
+    width: 40px;
+    height: 40px;
+    margin-top: 41px;
+    margin-left: 163px;
+}
+
+/*Esemka
+*************************************************************************************************************************************************************************************************/
+.esemka-inner{
+    padding-top: 5px;
+    background-image: url(img/GradientIntroimg.png);
+    height: 501px;
+    background-repeat: no-repeat;
+}
+
+.esem-h2{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-left: 104px;
+}
+
+.esem-h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-left: 104px
+}
+
+.esemka-p1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-left: 104px;
+    width: 60px;
+    height: 57px;
+}
+
+.esemka-p2{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-left: 56px;
+    width: 60px;
+    height: 57px;
+}
+
+.esemka-p3{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-left: 104px;
+    width: 106px;
+    height: 57px;
+}
+
+.esem-button{
+    background: #FA3C45;
+    border-radius: 8px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    height: 56px;
+    width: 128px;
+    margin-left: 104px;
+    margin-top: 96px;
+}
+
+.esemka-p{
+    display: flex;
+}
+
+.esemka-555{
+    color: red;
+}
+
+/*SELECT
+************************************************************************************************************************************************************************************************/
+.sel-option{
+    width: 464px;
+    height: 56px;
+    margin-top: 32px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    margin-left: 152px;
+    border: 1px solid #9A9AB0;
+    border-radius: 8px;
+}
+
+.sel-option1{
+    width: 464px;
+    height: 56px;
+    margin-top: 32px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    margin-left: 40px;
+    border: 1px solid #9A9AB0;
+    border-radius: 8px;
+    margin-bottom: 232px;
+}
+
+.select-inner{
+    display: flex;
+}
+
+.sel-button{
+    width: 128px;
+    height: 56px;
+    margin-left: 40px;
+    margin-top: 41px;
+}
+
+.sel-button{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    background: #FA3C45;
+    border-radius: 8px;
+}
+
+/*Our
+************************************************************************************************************************************************************************************************/
+.our-carts{
+    display: flex;
+}
+
+.our-h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 120%;
+    letter-spacing: 0.003em;
+    color: #11142D;
+    margin-left: 104px;
+}
+
+.our-h1-arrow{
+    color: #C5010A;
+    font-size: 20px;
+}
+
+.our-cart1{
+    background-image: url(img/Containerourimg1.png);
+    width: 816px;
+    background: #C5010A;
+    opacity: 0.8;
+    margin-right: 16px;
+    margin-left: 104px;
+}
+
+.our-cart1-p{
+    padding-top: 188px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: darkgray;
+    margin-left: 40px;
+}
+
+.our-cart1-h1{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 32px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-left: 40px;
+}
+
+.our-cart1-h2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: darkgray;
+    margin-top: 32px;
+    margin-left: 40px;
+}
+
+.our-arrow{
+    width: 16px;
+    height: 16px;
+    margin-left: 40px;
+    margin-bottom: 44px;
+}
+
+.our-cart2-img1{
+    margin-left: 104px;
+    margin-top: 16px;
+    margin-right: 16px;
+}
+
+.our-cart2-img2{
+    margin-top: 16px;
+    margin-right: 16px;
+}
+
+/*Over
+************************************************************************************************************************************************************************************************/
+.ove-text-h1{
+    margin-top: 273px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    width: 568px;
+    height: 174px;
+}
+
+.ove-text-p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #9A9AB0;
+    width: 544px;
+    height: 38px;
+    margin-bottom: 64px;
+}
+
+.ove-text-1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #FA3C45;
+    margin-right: 88px;
+}
+
+.ove-text-2{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #9A9AB0;
+    margin-right: 88px;
+}
+
+.ove-text-p1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #FA3C45;
+}
+
+.ove-text-p2{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #9A9AB0;
+}
+
+.ove-text2{
+    display: flex;
+}
+
+.our-text-cars{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #FA3C45;
+}
+
+.over-img{
+    margin-top: 200px;
+    margin-left: 104px;
+    margin-right: 56px;
+}
+
+.over-inner{
+    display: flex;
+}
+
+/*WHY
+***********************************************************************************************************************************************************************************************/
+
+.why{
+    background: #C5010A;
+    height: 880px;
+    width: 1440px;
+    margin-left: 104px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.why-inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.why-h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    padding-top: 136px;
+    margin-left: 104px;
+}
+
+.why-p{
+    margin-top: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    width: 427px;
+    margin-left: 104px;
+    margin-bottom: 72px;
+}
+
+.why-cart-h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    margin-left: 24px;
+}
+
+.why-cart-p1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    width: 371px;
+    margin-left: 24px;
+    margin-bottom: 33px;
+}
+
+.why-cart-p2{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    width: 410px;
+    margin-left: 24px;
+    margin-bottom: 33px;
+}
+
+.why-cart-p3{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    width: 400px;
+    margin-left: 24px;
+    margin-bottom: 33px;
+}
+
+.why-carts1{
+    display: flex;
+}
+
+.why-cart-img{
+    width: 48px;
+    height: 48px;
+    margin-left: 104px;
+    margin-top: 15px;
+}
+
+.why-img{
+    width: 608px;
+    height: 608px;
+    margin-top: 136px;
+    margin-right: 104px;
+}
+
+/*OUR
+************************************************************************************************************************************************************************************************/
+.our-h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #11142D;
+    margin-top: 64px;
+    margin-left: 729px;
+}
+
+.our-logotips{
+    margin-top: 62px;
+    display: flex;
+    margin-left: 104px;
+}
+
+.our-logo1{
+    width: 141.9px;
+    height: 60.29px;
+    margin-left: 129px;
+}
+
+.our-logo2{
+    width: 133.05px;
+    height: 64.99px;
+    margin-left: 70px;
+}
+
+.our-logo3{
+    width: 88.94px;
+    height: 60.78px;
+    margin-left: 99px;
+}
+
+.our-logo4{
+    width: 125.05px;
+    height: 39.22px;
+    margin-left: 99px;
+}
+
+.our-logo5{
+    width: 108.93px;
+    height: 34.56px;
+    margin-left: 92px;
+}
+
+.our-logo6{
+    width: 141.9px;
+    height: 60.29px;
+    margin-left: 82px;
+}
+
+/*NEW
+************************************************************************************************************************************************************************************************/
+.new-h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    margin-left: 204px;
+    margin-top: 285px;
+}
+
+.new-cart-1-img{
+    margin-left: 204px;
+    margin-top: 55px;
+    width: 608px;
+    height: 830px;
+}
+
+.new-cart-2{
+    margin-top: 55px;
+}
+
+.new-cart-3{
+    margin-top: 55px;
+}
+
+.new-carts{
+    display: flex;
+}
+
+.new-cart-2-img{
+    margin-bottom: 16px;
+    margin-left: 16px;
+}
+
+.new-cart-3-img{
+    margin-bottom: 16px;
+}
+
+/*WHAT
+************************************************************************************************************************************************************************************************/
+.what-h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #2E2E2E;
+    width: 512px;
+    height: 116px;
+    margin-left: 550px;
+    margin-top: 201px;
+}
+
+.what-p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #808080;
+    width: 608px;
+    margin-left: 516px;
+}
+
+.what-cart-img{
+    margin-left: 204px;
+    margin-top: 57px;
+}
+
+.what-cart-text-h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    width: 392.94px;
+    margin-top: 139px;
+    margin-left: 146px;
+}
+
+.what-cart-text-p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #92929D;
+    width: 533px;
+    margin-left: 88px;
+    margin-top: 32px;
+}
+
+.what-cart-text-h2{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FA3C45;
+    width: 103.89px;
+    margin-top: 40px;
+    margin-left: 291px;
+}
+
+.what-cart-text-h3{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.008em;
+    color: #92929D;
+    width: 144px;
+    margin-left: 270px;
+    margin-top: 8px;
+}
+
+.what-cart{
+    display: flex;
+}
+
+/*Download
+************************************************************************************************************************************************************************************************/
+.download-inner{
+    display: flex;
+}
+
+.download-img{
+    margin-left: 256px;
+    margin-top: 280px;
+}
+
+.download-text-h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    margin-top: 348px;
+    margin-left: 120px;
+}
+
+.download-text-p{
+    width: 530px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #92929D;
+    margin-left: 120px;
+    margin-top: 22px;
+}
+
+.chekers{
+    margin-top: 58px;
+    margin-left: 122px;
+}
+
+.cheker{
+    display: flex;
+}
+
+.cheker-img{
+    width: 20px;
+    height: 20px;
+    padding-top: 10px;
+    padding-right: 18px;
+}
+
+.cheker-h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    margin-bottom: 21px;
+}
+
+.download-appstore{
+    margin-left: 123px;
+    margin-top: 42px;
+}
+
+.download-google{
+    margin-left: 24px;
+    margin-top: 42px;
+}
+
+/*subscribe
+************************************************************************************************************************************************************************************************/
+.subscribe-h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    margin-left: 377px;
+    margin-top: 125px;
+}
+
+.subscribe-p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #92929D;   
+    margin-top: 24px; 
+    margin-left: 400px;
+}
+
+.subscribe-forms{
+    display: flex;
+}
+
+.subscribe-form{
+    margin-top: 56px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    margin-left: 474px;
+}
+
+.subscribe-form1{
+    margin-top: 56px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    margin-left: 16px;
+}
+
+.subscribe-form-input{
+    width: 296px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 1px solid #ECF2FE;
+    border-radius: 8px;    
+    margin-top: 20px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+}
+ 
+.subscribe-button{
+    background: #FA3C45;
+    border-radius: 8px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;  
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    width: 128px;
+    height: 56px;
+    margin-top: 96px;
+    margin-left: 42px;
+}
+
+/*Footer
+************************************************************************************************************************************************************************************************/
+.footer{
+    background-color: #C5010A;
+    width: 1920px;
+    height: 407px;
+    position: absolute;
+    margin-left: 200px;
+}
+
+.footer-inner{
+    display: flex;
+}
+
+.footer-1-img{
+    margin-left: 104px;
+    margin-top: 87px;
+}
+
+.footer-1-p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;   
+    letter-spacing: 0.008em;
+    color: #FFFFFF;    
+    width: 196px;
+    margin-left: 104px;
+    margin-top: 37px;
+}
+
+.footer-1-p1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;    
+    margin-left: 104px;
+    margin-top: 128px;
+    padding-bottom: 37px;
+}
+
+.footer-2-a{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.008em;
+    color: #FFFFFF;    
+    text-decoration: none;
+    margin-top: 95px;
+    margin-left: 164px;
+    margin-bottom: 29px;
+}
+
+.footer-4-p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;   
+    letter-spacing: 0.008em;
+    color: #FFFFFF;    
+    margin-left: 165px;
+    margin-top: 98px;
+}
+
+.footer-4-p1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;   
+    letter-spacing: 0.008em;
+    color: #FFFFFF;    
+    margin-left: 165px;
+    margin-top: 22px;
+}
