@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*Header
+***********************************************************************************/
+.header-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    margin-top: 20px; 
+}
+
+.header-link{
+    margin-left: 20px;
+    font-size: 15px;
+    color: #08082A;
+    text-decoration: none;
+}
+
+.logo-h1{
+    color:orange ;
+}
+
+/*Intro
+*****************************************************************************************************************************************************************************************************/
+.intro-inner{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.intro-ideas{
+    color: orange;
+}
+
+.nasway{
+    width: 600px;
+    padding: 40px
+}
+
+.intro-h1{
+    font-size: 60px;
+    width: 420px;
+}
+
+.intro-p{
+    font-size:12px;
+    color: #08082A;
+    width: 400px;
+    padding-bottom: 20px;
+}
+
+.intro-button{
+    background-color: orange;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 7px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+/*Why
+***********************************************************************************************************************************************************************************************/
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards-p{
+    padding-left: 80px;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.card-one{
+    margin-left: 100px;
+    width: 330px;
+}
+
+.card-one-h3{
+    font-size: 26px;
+    color: #FF5A09;
+    padding-bottom: 17px;
+}
+
+.card-one-h1{
+    font-size: 36px;
+    color: #08082A;
+    padding-bottom: 17px;
+    font-family: 'Helvetica Neue LT Std';
+}
+
+.card-one-p{
+    font-size: 20px;
+    color: #08082A;
+}
+
+/****************************************************************************************************************************************/
+.card-two{
+    margin-right: 100px;
+    width: 330px;
+}
+
+.card-two-h3{
+    font-size: 26px;
+    color: #4ACF8C;
+    padding-bottom: 17px;
+}
+
+.card-two-h1{
+    font-size: 36px;
+    color: #08082A;
+    padding-bottom: 17px;
+}
+
+.card-two-p{
+    font-size: 20px;
+    color: #08082A;
+}
+/*additional
+***********************************************************************************************************************************************/
+.additional-h1{
+    margin-top: 100px;
+    font-size: 40px;
+    color: #08082A;
+    width: 400px;
+    font-family: 'Playfair Display';
+    padding-bottom: 80px;
+}
+
+.carts{
+    justify-content: space-between;
+    display: flex;
+}
+
+.cart-one{
+    padding-left: 40px;
+}
+
+.cart-one-h1{
+    font-size: 24px;
+    color: #08082A;
+}
+
+.Cart-Cart{
+    font-size: 29px;
+    color: #08082A;
+}
+
+.cart-one-price{
+    padding-top: 40px;
+    padding-left: 100px;
+    font-size: 29px;
+    color: #FF5A09;
+}
+
+.cart-two-price{
+    padding-top: 40px;
+    padding-left: 100px;
+    font-size: 29px;
+    color: #00AEBF;
+}
+
+.cart-three-price{
+    padding-top: 40px;
+    padding-left: 100px;
+    font-size: 29px;
+    color: #FF9900;
+}
+
+.cart-one-price{
+    border: #FFF2E4;
+}
+.cart-two-price{
+    border: #E4F7FF;
+}
+.cart-two-price{
+    border: #FFE5E5;
+}
+/*************************************************************************************************************************************************/
+.trend-inner{
+    justify-content: space-between;
+    display: flex;
+}
+
+.trend-one-img{
+    padding-top: 200px;
+    width: 550px;
+}
+
+.trend-one-h1{
+    padding-top: 20px;
+    font-size: 34px;
+    color: #08082A;
+}
+
+.trend-one-p{
+    padding-top: 20px;
+    font-size: 17px;
+    color: #08082A;
+    width: 450px;
+    padding-bottom: 200px;
+}
+
+.rectangle{
+    width: 70%;
+    height: 330px;
+    border-radius: 24px;
+    border:1px solid;
+    margin:auto;
+    background: #FF5A09;
+    text-align: center;
+}
+
+.rectangle-h1{
+    padding-top: 20px;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.rectangle-h1-1{
+    font-size: 50px;
+    padding-bottom: 40px;
+    color: #FFFFFF;
+}
+
+.rectangle-button{
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 20px;
+    color: #08082A;
+    background-color: white;
+}
+
+/*Footer*/
+
+.logo{
+    color: #FF9900;
+}
